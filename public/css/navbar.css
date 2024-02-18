@@ -1,0 +1,35 @@
+nav{
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(227, 227, 227);
+    opacity: 70%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    border-bottom: 2px solid aquamarine;
+}
+
+.left img{
+    width: 100px;
+    height: 100px;
+}
+
+.left{
+    margin-left: 80px;
+}
+
+.right{
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.right a{
+    text-decoration: none;
+    margin: 30px;
+    font-family: 'poppins';
+    font-size: 18px;
+    color: blueviolet;
+}

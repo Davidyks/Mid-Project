@@ -1,0 +1,56 @@
+.container{
+    margin-top: 140px;
+    background-color: aquamarine;
+    opacity: 80%;
+    width: 90%;
+    border-radius: 20px;
+}
+
+*{
+    font-family: 'Poppins';
+}
+
+.container h1{
+    margin-left: 40px;
+    color: blueviolet;
+    opacity: 80%;
+}
+
+.container .card img{
+    height: 250px;
+}
+
+.container .judul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    align-items: center;
+}
+
+.container .card{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 25%;
+}
+
+.container .karyawan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.container .judul .kanan{
+    background-color: azure;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container .judul .kanan a{
+    text-decoration: none;
+}
